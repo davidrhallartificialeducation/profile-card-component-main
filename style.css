@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+.age {
+    color: hsl(227, 10%, 46%);
+}
+
+body {
+    align-items: center;
+    background-color:hsl(185, 75%, 39%);
+    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
+    background-position: right calc(47vw + 16%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 100%;
+    justify-content: center;
+    max-height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    left: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 300px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+}
+
+.card > .top {
+    background-image: url("images/bg-pattern-card.svg");
+    height: 100px;
+}
+
+.city {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.column-title {
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+
+.popularity {
+    border-top: 1px solid lightgrey;
+    height: 100%;
+    width: 100%;
+}
+
+.primary-blue {
+    color: hsl(229, 23%, 23%);
+}
+
+.primary-cyan {
+    color: hsl(185, 75%, 39%);
+}
+
+.primary-gray {
+    color: hsl(227, 10%, 46%);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: 4px white solid;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statistic {
+    font-weight: 700;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
