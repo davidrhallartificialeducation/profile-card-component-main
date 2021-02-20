@@ -7,8 +7,8 @@
 body {
     align-items: center;
     background-color:hsl(185, 75%, 39%);
-    background-image: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-bottom.svg');
-    background-position: right calc(47vw + 16%) bottom calc(65vh - 15vw), left calc(40vw + 25%) top calc(72vh - 10vw);
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: right 50vw bottom 20vh,left 50vw  top 40vh;
     background-repeat: no-repeat;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
